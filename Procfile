@@ -1,1 +1,1 @@
-web: uviicorn -k uvicorn.workers.UvicornWorker --log-level debug main:app
+web: uvicorn -k uvicorn.workers.UvicornWorker --log-level debug main:app
