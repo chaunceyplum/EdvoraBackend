@@ -1,0 +1,10 @@
+fastapi==0.70.1
+hypercorn==0.13.0
+psycopg2==2.9.2
+requests==2.26.0
+SQLAlchemy==1.4.28
+pipdeptree==2.2.0
+setuptools==59.0.1
+tortoise-orm==0.17.8
+uvicorn==0.16.0
+wheel==0.37.0
