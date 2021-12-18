@@ -7,7 +7,6 @@ from sqlalchemy.orm import sessionmaker
 
 
 SQLALCHEMY_DATABASE_URL = "sqlite:///sql.db"
-# SQLALCHEMY_DATABASE_URL = "postgresql://chaunceyplummer:thenorthface@localhost:3300/chaunceys_data"
 
 engine = create_engine(
     SQLALCHEMY_DATABASE_URL ,
