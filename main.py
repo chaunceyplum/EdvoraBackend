@@ -9,13 +9,14 @@ from sqlalchemy.orm import Session
 from starlette.responses import Response
 import crud, model, schema, database
 from fastapi.security import OAuth2PasswordBearer
-
+from deta import Deta
 
 
 app =FastAPI()
+deta = Deta("b08wlz9a_mbkyByzYT9N8eyGHnsk1Lrs99hLgosto")
 
 
-
+users = deta.Base("users")
 origins = [
     "http://localhost:3000",
     "https://localhost:3000",
