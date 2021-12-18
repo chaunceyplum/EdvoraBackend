@@ -1,6 +1,6 @@
 fastapi==0.70.1
 hypercorn==0.13.0
-psycopg2==2.9.2
+
 requests==2.26.0
 SQLAlchemy==1.4.28
 pipdeptree==2.2.0
